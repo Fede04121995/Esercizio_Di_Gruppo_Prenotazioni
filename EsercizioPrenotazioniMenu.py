@@ -31,7 +31,8 @@ while True:
         ora = input("Inserisci l'ora (HH:MM): ")
         effettua_prenotazione(utente_id, hotel_id, data, ora)
     elif scelta == "4":
-        visualizza_prenotazioni()
+        ID_prenotazione = input("Inserisci ID prenotazione: ")
+        visualizza_prenotazione()
     elif scelta == "5":
         prenotazione_id = input("Inserisci ID prenotazione da cancellare: ")
         cancella_prenotazione(prenotazione_id)
